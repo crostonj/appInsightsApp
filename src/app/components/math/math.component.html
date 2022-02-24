@@ -1,1 +1,26 @@
-<p>math works!</p>
+<div class="container">
+  <form [formGroup]="form">
+    <div class="form-row">
+      <div class="form-group col-5">
+         <label>Denominator</label>
+        <input
+          type="text"
+          name="denominator"
+          formControlName="denominator"
+          class="form-control"
+          [(ngModel)]="data.denominator"
+          (change)="calcalute()"
+        />
+      </div>
+       <div class="form-group col-5">
+         <label>Answer</label>
+        <input
+          type="text"
+          formControlName="answer"
+          class="form-control"
+          [(ngModel)]="data.answer"
+        />
+      </div>
+   </div>
+  </form>
+</div>
