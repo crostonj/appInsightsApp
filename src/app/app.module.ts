@@ -15,13 +15,15 @@ import { MatListModule } from '@angular/material/list';
 import { MatTableModule } from '@angular/material/table'
 
 import { ApplicationinsightsAngularpluginErrorService } from '@microsoft/applicationinsights-angularplugin-js';
+import { HomeComponent } from './components/home/home.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     WeatherComponent,
-    MathComponent
+    MathComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

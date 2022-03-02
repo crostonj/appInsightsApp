@@ -1,4 +1,3 @@
-import { NgStyle } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { WeatherService } from 'src/app/services/weather/weather.service';
 
